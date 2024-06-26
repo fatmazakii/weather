@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar d-flex  navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="brand" href="/">
+                            <img src="image/logo@2x.png" alt="logo" width="64" height="38">
+                            <div class="logo">
+                                <h1 class="title">Weather</h1>
+                                <span>tagline goes here</span>
+                            </div>
+                        </a>
+                        <div class=" d-flex justify-content-end collapse  navbar-collapse" id="navbarSupportedContent"">
+                            <ul class="navbar-nav d-flex justify-content-end list  me-auto mb-2 mb-lg-0">
+                                <li class="nav-item text-light">
+                                    <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light active" aria-current="page" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light active" aria-current="page" href="#">Live cameras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light active" aria-current="page" href="#">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light active" aria-current="page"
+                                        href="./contact/contact.html">contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="main" style="background-image: url(image/banner.png);">
+
+            <div class="container">
+                <div class="location">
+                    <div id="city-find">
+                    
+                            <div class="example "  action="">
+                                <input id="Find" type="text" placeholder="Find your location..." style="width: 90%; border: none; background: #1e202b; color: white;  border-radius: 15px;">
+                                <button  onclick="getWeather()" type="submit" style="width: 9%; border: none; background: #009ad8; border-radius: 5px;">Find</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <div class="container">
+                <div class="table-container">
+                    <div class="today" id="today">
+                        <div id="today-header">
+                            <div class="day">Tuesday</div>
+                            <div class="date">25Jnue</div>
+                        </div>
+                        <div class="today-contant">
+                            <input id="city" class="location-city" style="background: transparent; border: none; color: gray;"></input>
+                            <div class="degree">
+                                <input id="num" class="num" style="background: transparent; color: white; border: none;"></input>
+                                <div class="icon"><img src="image/113.webp" alt="icon" width="90"></div>
+
+                            </div>
+                            <div class="custom">clear</div>
+                            <div class="info">
+                                <span><img src="image/icon-umberella.png" alt="">20%</span>
+                                <span><img src="image/icon-wind.png" alt="">18km/h</span>
+                                <span><img src="image/icon-compass.png" alt="">East</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tomorrow" id="tomorrow">
+                        <div class="tomorrow-header">
+                            <div class="days">wednesday</div>
+                        </div>
+                        <div class="tomorrow-contant">
+                            <div class="tomorrow-icon"><img src="image/113 (1).webp" alt="" width="48"></div>
+                            <div class="degree-tomorrow">42.3C</div>
+                            <small>24.9o</small>
+                            <div class="custom">Sunny</div>
+                        </div>
+                    </div>
+                    <div class="tomorrow" id="two-days">
+                        <div class="tomorrow-header">
+                            <div class="days">thursday</div>
+                        </div>
+                        <div class="tomorrow-contant">
+                            <div class="tomorrow-icon"><img src="image/113 (1).webp" alt="" width="48"></div>
+                            <div class="degree-tomorrow">43.3C</div>
+                            <small>25.8o</small>
+                            <div class="custom">Sunny</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row" id="row">
+                    <div class="col-md-8">
+                        <form class="example" action="/index.html">
+                            <input type="text" placeholder="Enter your email to subscribe..." name="search">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                    </div>
+                </div>
+                <p class="copyright">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

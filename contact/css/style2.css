@@ -1,0 +1,311 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #abb0d0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+
+.header {
+    padding: 50px 0;
+    height: 90px;
+}
+.list{
+    flex: auto;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1.1428571429em;
+}
+
+span {
+    color: #bfc1c8;
+    font-size: 10px;
+    margin-left: 5px;
+    display: block;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    line-height: 1;
+}
+
+.nav {
+    float: right;
+}
+
+.main {
+    min-height: 350px;
+    position: relative;
+}
+
+.location {
+    margin-bottom: 70px;
+}
+.Find{
+    flex: auto;
+    float: right;
+}
+#submit{
+    flex: auto;
+    float: right;
+
+}
+#search {
+    width: 60%;
+    position: absolute;
+    top: 150px;
+    /* left: 250px; */
+    justify-content: center;
+    align-items: center;
+    bottom: 150px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+
+}
+
+#submit {
+    position: absolute;
+    background: #009ad8;
+    border-radius: 10px;
+    color: white;
+    top: 150px;
+    left: 250px;
+    bottom: 150px;
+    float: right;
+}
+
+#table {
+    background: #1e202b;
+    text-align: center;
+    height: 400px;
+
+}
+
+.table-container {
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.today {
+    float: left;
+    width: 33.3%;
+
+}
+
+#today {
+    background-color: #323544;
+    float: left;
+    width: 33.3%;
+}
+
+#today-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+}
+
+.day {
+    float: left;
+    color: #bfc1c8;
+}
+
+.date {
+    float: right;
+    color: #bfc1c8;
+}
+
+.today-contant {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 50px 20px 10px;
+}
+
+.location-city {
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.table-container {
+    color: #bfc1c8;
+    background-color: #323544;
+
+}
+
+.degree {
+    color: white;
+    font-weight: 700;
+}
+
+.num {
+    font-size: 90px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    width: 90px;
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.info {
+    display: flex;
+
+}
+
+span {
+    margin-right: 20px;
+}
+
+#tomorrow {
+    background-color: #262936;
+    width: 33.33%;
+}
+
+.tomorrow-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+
+}
+
+.days {
+    color: #bfc1c8;
+}
+
+.tomorrow-contant {
+    text-align: center;
+    color: #bfc1c8;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#two-days {
+    background-color: #323544;
+    width: 33.33%;
+}
+
+.degree-tomorrow {
+    font-size: 24px;
+    color: white;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 15px;
+    float: left;
+    width: 80%;
+    background: #1e202b;
+    border: none
+}
+
+form.example button {
+    float: left;
+    width: 13%;
+    padding: 10px;
+    background: #009ad8;
+    color: white;
+    font-size: 17px;
+    border:none;
+   
+    cursor: pointer;
+    border-radius: 15px;
+}
+#row{
+    padding-top: 40px;
+}
+
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.site-footer {
+    background-color: #323544;
+    padding-bottom: 40px;
+}
+.copyright{
+    padding-top: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    color: white;
+    background: #009ad8;
+}
+
+.fa-facebook {
+  background: #1e202b;
+  color: #009ad8;
+}
+
+.fa-twitter {
+    background: #1e202b;
+    color: #009ad8;
+}
+
+.fa-google {
+    background: #1e202b;
+    color: #009ad8;
+  }
+.fa-pinterest {
+    background: #1e202b;
+  color: #009ad8;
+  }
